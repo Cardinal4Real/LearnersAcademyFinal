@@ -5,15 +5,15 @@
 <hibernate-configuration>
         <session-factory>
         <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
-        <property name="hibernate.connection.password">vX4uvyhSnGGqGwzt</property>
+        <property name="hibernate.connection.password"></property>
         <property name="hibernate.connection.url">jdbc:mysql://10.233.202.114:3306/learnersAcademy</property>
-        <property name="hibernate.connection.username">sddb</property>
+        <property name="hibernate.connection.username"></property>
         <property name="hibernate.dialect">org.hibernate.dialect.MySQL8Dialect</property>
         <property name="hibernate.hbm2ddl.auto">update</property>
-        <mapping class="com.entity.Students"/>
-        <mapping class="com.entity.Classes"/>
-        <mapping class="com.entity.StudentClasses"/>
-        <mapping class="com.entity.Subjects"/>
-        <mapping class="com.entity.Teachers"/>
+        <mapping class="com.entities.Students"/>
+        <mapping class="com.entities.Classes"/>
+        <mapping class="com.entities.Subjects"/>
+        <mapping class="com.entities.Teachers"/>
+        <mapping class="com.entities.TeacherSubject"/>
     </session-factory>
 </hibernate-configuration>
